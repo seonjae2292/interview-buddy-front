@@ -26,10 +26,12 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <Link href="#" className="text-sm font-medium hover:text-primary">
+            <Link href="/login" className="text-sm font-medium hover:text-primary">
               로그인
             </Link>
-            <Button size="sm">회원가입</Button>
+            <Button size="sm" asChild>
+              <Link href="/signup">회원가입</Link>
+            </Button>
           </div>
         </div>
       </header>
