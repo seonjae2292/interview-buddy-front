@@ -9,7 +9,7 @@ export default function Home() {
       <header className="border-b">
         <div className="container flex items-center justify-between py-4">
           <Link href="/" className="text-xl font-bold">
-            InterviewBuddy
+            WEterview
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="/studies" className="text-sm font-medium hover:text-primary">
